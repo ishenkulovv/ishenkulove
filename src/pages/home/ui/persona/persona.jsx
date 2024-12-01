@@ -33,7 +33,7 @@ const Persona = () => {
 					<Images>
 						<Laptop
 								$delay={0.7} $scale={0.7}
-								src={"./images/laptop.png"}
+								src={"./images/laptop.avif?v=1"}
 								alt={"laptop"}
 						/>
 						<Experience $delay={0.9} $scale={0.7}>
@@ -55,7 +55,7 @@ const Persona = () => {
 						</PlusIconStyled>
 						<Sky
 								$delay={0.8} $scale={0.7}
-								src={"./images/sky.png"}
+								src={"./images/sky.avif?v=1"}
 								alt={"sky"}
 						/>
 					</Images>

@@ -16,7 +16,7 @@ const Navigation = () => {
 				<Nav>
 					<NavigationUser>
 						<NavigationPhotoWrapper>
-							<NavigationPhoto $delay={1} $duration={0.5} src={"/images/avatar.png"}/>
+							<NavigationPhoto $delay={1} $duration={0.5} src={"/images/avatar.png?v=1"}/>
 						</NavigationPhotoWrapper>
 						<NavigationName $delay={1} $duration={0.5}>Adil Ishenkulov</NavigationName>
 						<NavigationEmail href={"mailto:ishenkulov4@gmail.com"} $delay={1} $duration={0.5}>
