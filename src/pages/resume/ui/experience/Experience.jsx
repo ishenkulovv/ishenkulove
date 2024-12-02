@@ -8,10 +8,10 @@ const Experience = () => {
 				<Title>Experience</Title>
 				{COMPANY_LIST?.map((company, index) => (
 						<ExperienceWrapper key={index}>
-							<SubTitle>{company?.name}</SubTitle>
-							<Text>{company?.position}</Text>
-							<DateText>{company?.date}</DateText>
-							<Text>{company?.description}</Text>
+							<SubTitle $delay={0.4 + (index / 3.5)} $duration={0.5}>{company?.name}</SubTitle>
+							<Text $delay={0.5 + (index / 3.5)} $duration={0.5}>{company?.position}</Text>
+							<DateText  $delay={0.6 + (index / 3.5)} $duration={0.5}>{company?.date}</DateText>
+							<Text $delay={0.7 + (index / 3.5)} $duration={0.5}>{company?.description}</Text>
 						</ExperienceWrapper>
 				))}
 			</Block>

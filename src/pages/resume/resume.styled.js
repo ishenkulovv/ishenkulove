@@ -21,6 +21,7 @@ color: rgb(249, 250, 254);
 	line-height: 1.4em;
 	text-decoration: none;
 	text-transform: none;
+	${fadeInText}
 `
 export const DateText = styled.p`
 	font-size: 14px;
@@ -31,6 +32,7 @@ export const DateText = styled.p`
 	text-decoration: none;
 	text-transform: none;
 	color: rgb(171, 173, 176);
+	${fadeInText}
 `
 
 export const Text = styled.p`
