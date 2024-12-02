@@ -9,4 +9,9 @@ export const PROJECTS_LIST = [
 		link: 'aircraft-tracking-system',
 		image: "aircraft_tracking_system"
 	},
+	{
+		title: 'Aircraft Tracking System',
+		link: 'aircraft-tracking-system',
+		image: "aircraft_tracking_system"
+	},
 ]
