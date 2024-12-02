@@ -30,7 +30,6 @@ export const TechIconWrapper = styled.div`
 export const TechIcon = styled.img`
 	display: block;
 	width: 100%;
-	
 	object-position: center center;
 	object-fit: cover;
 	image-rendering: auto;
