@@ -14,15 +14,26 @@ export const TechName = styled.h4`
 	margin-top: 10px;
 `
 
-export const TechIcon = styled.img`
-	display: block;
+export const TechIconWrapper = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #25323E;
+	border-radius: 14px;
 	width: 54px;
 	height: 54px;
-	border-radius: inherit;
+	overflow: hidden;
+	padding: 6px;
+	box-sizing: border-box;
+`
+
+export const TechIcon = styled.img`
+	display: block;
+	width: 100%;
+	
 	object-position: center center;
 	object-fit: cover;
 	image-rendering: auto;
-	border-radius: 14px;
 `
 
 export const TechPreset =styled.p`
