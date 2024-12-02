@@ -1,0 +1,37 @@
+import {styled} from "styled-components";
+
+export const TechWrapper = styled.div``
+
+export const TechName = styled.h4`
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 1.4em;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(249, 250, 254);
+	margin-top: 10px;
+`
+
+export const TechIcon = styled.img`
+	display: block;
+	width: 54px;
+	height: 54px;
+	border-radius: inherit;
+	object-position: center center;
+	object-fit: cover;
+	image-rendering: auto;
+	border-radius: 14px;
+`
+
+export const TechPreset =styled.p`
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 1.6em;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(171, 173, 176);
+`
