@@ -12,6 +12,26 @@ export const Title = styled.h3`
 	color: rgb(128, 146, 234);
 	${fadeInText}
 `
+export const SubTitle = styled.h4`
+color: rgb(249, 250, 254);
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: 0px;
+	line-height: 1.4em;
+	text-decoration: none;
+	text-transform: none;
+`
+export const DateText = styled.p`
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 1.6em;
+	text-decoration: none;
+	text-transform: none;
+	color: rgb(171, 173, 176);
+`
 
 export const Text = styled.p`
 	font-size: 18px;
@@ -47,4 +67,16 @@ export const TechStackWrapper = styled.div`
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	gap: 16px;
 	margin-top: 30px;
+`
+export const ExperienceWrapper = styled.div`
+	&:nth-child(2) {
+		margin-top: 10px;
+	}
+	margin-top: 48px;
+	p {
+			margin-top: 4px;
+		&:last-child {
+			margin-top: 16px;
+		}
+	}
 `
