@@ -1,4 +1,5 @@
 import {ContentWrapper, MainWrapper} from "./app/style/global.styled.js";
+import { Analytics } from "@vercel/analytics/react"
 
 import React from "react";
 
@@ -10,6 +11,7 @@ function App() {
 
   return (
   <React.Fragment>
+    <Analytics/>
     <MainWrapper>
       <Navigation />
       <ContentWrapper>

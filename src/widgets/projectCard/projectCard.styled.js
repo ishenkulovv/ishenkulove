@@ -28,6 +28,7 @@ export const TitleStyled = styled.h3`
 	position: absolute;
 	bottom: 12px;
 	left: 16px;
+	cursor: pointer;
 `
 export const ImageStyled = styled.img`
 	width: 100%;
@@ -36,7 +37,8 @@ export const ImageStyled = styled.img`
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: -1;
+	z-index: -5;
+	cursor: pointer;
 `
 
 export const LinkStyled = styled.div`
@@ -52,6 +54,7 @@ export const LinkStyled = styled.div`
 	top: 16px;
 	right: 16px;
 	transition: all 0.3s;
+	cursor: pointer;
 	svg {
 		width: 18px;
 		height: 18px;
