@@ -12,17 +12,17 @@ const Note = () => {
 	}
 	
 	return (
-			<Block $padding={"36px"} $delay={0.5} $duration={0.5}>
+			<Block $padding={"36px"} $delay={0.1} $duration={0.5}>
 				<NoteContent>
-					<Title $delay={0.9} $duration={0.4}>Note</Title>
-					<Text $delay={1} $duration={0.4}>
+					<Title $delay={0.3} $duration={0.4}>Note</Title>
+					<Text $delay={0.4} $duration={0.4}>
 						Front-end Developer with 7 years of experience specializing in creating user-centric web and mobile
 						applications.
 						Proficient in modern technologies and frameworks, delivering innovative solutions in diverse domains,
 						including e-commerce,
 						CRM systems, dashboards, and organizational platforms
 					</Text>
-					<ButtonWrapper $delay={1.1} $duration={0.4}>
+					<ButtonWrapper $delay={0.5} $duration={0.4}>
 						<Button handler={downloadCv}>Download CV</Button>
 					</ButtonWrapper>
 				</NoteContent>

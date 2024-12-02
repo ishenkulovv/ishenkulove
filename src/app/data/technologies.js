@@ -20,13 +20,14 @@ export const TECHNOLOGIES_LIST = [
 		icon: "vue-icon.svg"
 	},
 	{
+		name: "React.js",
+		preset: "Framework",
+		icon: "react-icon.svg"
+	},
+	{
 		name: "Figma",
 		preset: "Design",
 		icon: "figma-icon.svg"
 	},
-	{
-		name: "React.js",
-		preset: "Framework",
-		icon: "react-icon.svg"
-	}
+
 ]

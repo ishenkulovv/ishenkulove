@@ -1,6 +1,9 @@
 import {styled} from "styled-components";
+import {fadeInText} from "../../app/style/animate.styled.js";
 
-export const TechWrapper = styled.div``
+export const TechWrapper = styled.div`
+	${fadeInText}
+`
 
 export const TechName = styled.h4`
 	font-size: 16px;
